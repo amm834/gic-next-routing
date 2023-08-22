@@ -1,14 +1,13 @@
 import React from 'react';
 import MainLayout from "@/components/MainLayout";
 
-//  -> /
-// -> /user
-const Home = () => {
+//  -> /user
+const User = () => {
     return (
         <MainLayout>
-          Home page
+            User page
         </MainLayout>
     );
 };
 
-export default Home;
+export default User;
